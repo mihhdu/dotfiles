@@ -1,0 +1,5 @@
+Xft*dpi:	144
+xterm*faceName: monospace
+xterm*faceSize: 10
+Xcursor*theme:	Vanilla-DMZ
+Xcursor*size:	48
