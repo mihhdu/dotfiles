@@ -1,0 +1,35 @@
+icons = "awesome"
+
+[theme]
+name = "plain"
+[theme.overrides]
+separator = "|" 
+
+[[block]]
+block = "docker"
+interval = 2
+format = "{running}/{total}"
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{Mup}%"
+
+[[block]]
+block = "cpu"
+interval = 1
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "net"
+device = "wlan0"
+format = "{ssid} {signal_strength}"
+interval = 5
+use_bits = false
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %d/%m %R"
