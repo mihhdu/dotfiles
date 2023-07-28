@@ -33,7 +33,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
-
+Plugin 'puremourning/vimspector'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
