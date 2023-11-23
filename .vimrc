@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set backspace=indent,eol,start
+
 " Replace tabs with whitespaces and a single tab with 4 spaces
 set expandtab
 set shiftwidth=4
