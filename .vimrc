@@ -1,11 +1,6 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
-
 set backspace=indent,eol,start
-
-" Replace tabs with whitespaces and a single tab with 4 spaces
-set expandtab
-set shiftwidth=4
+filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -40,6 +35,7 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'puremourning/vimspector'
+Plugin 'llama.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
